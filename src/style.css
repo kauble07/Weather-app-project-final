@@ -32,11 +32,11 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
 }
-
 .weather-app {
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
   background: #fff;
@@ -89,7 +89,7 @@ a {
   text-align: center;
 }
 .card-header {
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
   font-weight: bold;
   color: white;
@@ -102,7 +102,7 @@ a {
 }
 
 .card-body {
-  background-color: #7abfff;
+  background-color: #6daeeb;
   color: white;
   padding: 1rem 1rem;
   padding-top: 1rem;
@@ -112,4 +112,11 @@ a {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+.col-6 {
+  padding: 0 0;
+}
+.row {
+  bs-gutter-x: 20px;
+  margin-top: 10px;
 }
