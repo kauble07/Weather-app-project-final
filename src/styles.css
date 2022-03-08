@@ -1,0 +1,173 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #596aca;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span.currentLocation {
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+}
+h2 {
+  text-align: center;
+  color: #596aca;
+  font-size: 30px;
+}
+#search-form {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 22px;
+  padding: 10px 24px;
+  margin-left: 15px;
+  border-radius: 30px;
+  transition: all 200ms ease;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-danger:hover {
+  cursor: pointer;
+  color: #596aca;
+  border: 1px solid #596aca;
+  background: white;
+}
+.btn-success {
+  color: #fff;
+  background-color: #195287;
+  border-color: #195287;
+  color: #fff;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 22px;
+  padding: 10px 24px;
+  margin-left: 50px;
+
+  border-radius: 30px;
+  transition: all 200ms ease;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.btn-success:hover {
+  cursor: pointer;
+  color: #596aca;
+  border: 1px solid #596aca;
+  background: white;
+}
+
+.weatherOutlook {
+  text-align: center;
+}
+.locationHere {
+  font-weight: 700;
+  font-size: 18px;
+}
+.glass {
+  padding-right: 5px;
+  font-size: 30px;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #596aca;
+  font-weight: 700;
+}
+
+ul {
+  text-align: center;
+  font-size: 25px;
+  color: #596aca;
+  list-style: none;
+}
+
+.mainEmoji {
+  font-size: 80px;
+  line-height: 100px;
+}
+.emoji {
+  font-size: 50px;
+}
+
+.dayOfWeek {
+  font-size: 20px;
+  color: black;
+  padding: 5px 10px;
+}
+.daysNights {
+  font-weight: 900;
+}
+
+.card-header {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  padding: 2px;
+  margin-bottom: 0;
+  background-color: #596aca;
+  border: 2px solid #596aca;
+  text-align: center;
+}
+.card-title-day {
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  margin-top: 2px;
+  padding: 2px;
+  background-color: #ff7043;
+  max-width: var();
+}
+
+.card-title-night {
+  font-size: 11px;
+  font-weight: bold;
+  color: white;
+  padding: 2px;
+  background-color: black;
+  margin-top: -10px;
+  max-width: var();
+}
+.card-body {
+  margin: 0;
+  padding: 0px;
+  border: 2px solid #596aca;
+  color: black;
+  text-align: center;
+  background-color: white;
+}
+.card-text-day {
+  font-size: 35px;
+  color: #596aca;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.card-text-night {
+  font-size: 35px;
+  color: #596aca;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 30px;
+  margin-bottom: -15px;
+}
+.input-mysize {
+  width: 200px;
+}
+.col-sm-2 {
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.1);
+  padding-left: calc(var(--bs-gutter-x) * 0.1);
+  margin-top: var(--bs-gutter-y);
+}
