@@ -10,9 +10,8 @@ body {
 
 h1 {
   color: #596aca;
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 900;
-  line-height: 28px;
   margin-bottom: 0;
 }
 ul {
@@ -115,8 +114,4 @@ a {
 }
 .col-6 {
   padding: 0 0;
-}
-.row {
-  bs-gutter-x: 20px;
-  margin-top: 10px;
 }
