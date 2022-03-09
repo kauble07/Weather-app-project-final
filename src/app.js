@@ -88,20 +88,3 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("Sydney");
-
-function retrievePosition(position) {
-  let apiKey = "cae6029d52919513b4147d0f25a2dcfe";
-  let lat = position.coords.latitude;
-  let lon = position.coords.longitude;
-  let Url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
-  axios.get(Url).then(showWeather);
-}
-
-function getCurrentLocation(event) {
-  event.preventDefault();
-}
-
-let currentLocationButton = document.querySelector("#current-location-button");
-currentLocationButton.addEventListener("click", getCurrentLocation);
-
-navigator.geolocation.getCurrentPosition(retrievePosition);
