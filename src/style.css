@@ -12,7 +12,9 @@ h1 {
   color: #596aca;
   font-size: 34px;
   font-weight: 900;
-  margin-bottom: 0;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  line-height: 0px;
 }
 ul {
   margin: 0;
@@ -101,7 +103,7 @@ a {
 }
 
 .card-body {
-  background-color: #6daeeb;
+  background-color: #77bcfc;
   color: white;
   padding: 1rem 1rem;
   padding-top: 1rem;
